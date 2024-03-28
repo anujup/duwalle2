@@ -210,6 +210,8 @@ header {
     margin-top: 90px;
 }
 .team-heading{
+    margin-top: 50px;
+    margin-bottom: 10px;
     text-align:center;
     font-weight: 500;
 }
@@ -221,6 +223,9 @@ header {
     height:255px;
     background:#A96564;
     border-radius: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     margin:12px;
 }
 .swiper-control{
