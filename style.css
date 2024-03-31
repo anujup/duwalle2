@@ -10,16 +10,16 @@ html, body{
     height:100%;
 }
 header {
-    background:#A96564;
-    height:240px;
+    background:#4fb1a1;
     border-radius: 0 0 100% 100%;
     position:absolute;
     top:0;
     width:100%;
+    height: 230px;
 }
 .nav {
     position:fixed;
-    top:3%;
+    top:2%;
     left: 50%;
     transform: translateX(-50%);
     display:flex;
@@ -60,7 +60,7 @@ header {
 #store-link{
     border-radius: 10px;
     font-size: 1.0rem;
-    color : #A96564;
+    color:#4fb1a1;
     letter-spacing: 1.4px;
 }
 #store-link:hover i{
@@ -90,16 +90,15 @@ header {
 
 .swiper-1 {
     position:absolute;
-    transform: translateY(-50%);
+    transform: translateY(0%);
     border-radius: 8px;
-    width: 98%;
-    top: 75%;
+    width: 94%;
+    top: 50%;
 }
 .swiper-wrapper img{
     object-fit: cover;
     max-height: 200px;
 }
-
 .hero-section{
     max-width: 1400px;
     margin-top: 310px;
@@ -200,7 +199,7 @@ header {
     display:flex;
     align-items:center;
     gap: 28px;
-    background:#ddd;
+    background:#f2f2f2;
     box-shadow: inset 2px 2px 4px rgba(0,0,0,0.3);
     padding: 22px ;
     overflow: auto;
@@ -321,9 +320,8 @@ header {
     object-fit: cover;
     border-radius: 50%;
 }
-.team-swiper{
-    background:#f2f2f2;
-}
+
+
 .team-heading{
     margin: 30px 0;
     text-align:center;
@@ -331,11 +329,9 @@ header {
     font-weight: 500;
 }
 
-
-
 .team-wrapper>div{
     max-width:280px;
-    min-height:340px;
+    min-height:360px;
     border-radius: 6px;
     display:flex;
     flex-direction:column;
@@ -378,16 +374,18 @@ header {
     position:relative;
 }
 .swiper-control .swiper-pagination .swiper-pagination-bullet{
-    background:#A96564;
+    background: #4fb1a1;
 }
 
 footer {
-    margin-top: 120px;
-    background:#A96564;
+    margin-top: 60px;
+    background: #4fb1a1;
     display: flex;
-    justify-content: center;
+    flex-direction:column;
+    align-items:center;
     height:150px;
 }
+
 .comment {
     height:80px;
     width: 520px;
@@ -426,7 +424,7 @@ footer {
 }
 .comment button {
     border: none;
-    background-color: #A96564;
+    background-color: #4fb1a1;
     width: 80px;
     font-weight: 600;
     color:#fff;
@@ -436,7 +434,17 @@ footer {
     z-index: 2;
 
 }
+.social{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 25px;
+}
 
+.social i{
+    font-size: 28px;
+    color:#fff;
+}
 @media only screen and (max-width: 1000px) {
     .nav>.fa{
         display:block !important;
@@ -459,7 +467,7 @@ footer {
         flex-direction:column;
         border-radius: 20px;
         width:94%;
-        border-bottom: 2px solid #A96564;
+        border-bottom: 2px solid #4fb1a1;
         padding: 40px 32px;
         background: rgba(255,255,255,1);
         box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
@@ -476,7 +484,7 @@ footer {
         text-align:center;
         width: 120px;
         margin:auto;
-        border: 2px solid #A96564;
+        border: 2px solid #4FB1A1;
         padding: 8px 12px;
 
     }
