@@ -11,7 +11,7 @@ html, body{
 }
 header {
     background:#A96564;
-    height:250px;
+    height:240px;
     border-radius: 0 0 100% 100%;
     position:absolute;
     top:0;
@@ -91,8 +91,8 @@ header {
 .swiper-1 {
     position:absolute;
     transform: translateY(-50%);
-    border-radius: 16px;
-    width: 94%;
+    border-radius: 8px;
+    width: 98%;
     top: 75%;
 }
 .swiper-wrapper img{
@@ -276,7 +276,7 @@ header {
 
 
 .reviews{
-    margin-top: 50px;
+    margin: 70px 0;
 }
 
 .review-heading{
@@ -284,6 +284,7 @@ header {
     font-weight: 600;
 }
 .review-wrapper{
+    margin-top: 10px;
     display:flex;
     gap: 40px;
     overflow: auto;
@@ -291,33 +292,81 @@ header {
     padding: 20px;
 }
 .review{
-    min-width:300px;
-    min-height:180px;
-    border-radius: 12px;
-    background:#eceff3;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    min-width:280px;
+    min-height:290px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
-.team{
-    margin-top: 90px;
+.review p{
+    font-size: 16px;
+    font-weight: 500;
+    color:#626262;
+}
+.review .account-info{
+    display:flex;
+    gap: 12px;
+    align-items:center;
+}
+.account-info h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.account-info img{
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.team-swiper{
+    background:#f2f2f2;
 }
 .team-heading{
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin: 30px 0;
     text-align:center;
+    font-size: 18px;
     font-weight: 500;
 }
 
 
 
 .team-wrapper>div{
-    max-width:200px;
-    height:255px;
-    background:#A96564;
-    border-radius: 16px;
+    max-width:280px;
+    min-height:340px;
+    border-radius: 6px;
     display:flex;
-    justify-content:center;
+    flex-direction:column;
     align-items:center;
-    margin:12px;
+    justify-content:space-between;
+    margin:0 20px;
+    background:#fff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align:center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.team-profile{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    gap: 10px;
+}
+.team-photo {
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.team-brief{
+    font-size: 15px;
+    color:#525252;
+    font-weight: 500;
+    margin-top: 30px;
+
 }
 .swiper-control{
     margin-top: 20px;

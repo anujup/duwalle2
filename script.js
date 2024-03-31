@@ -37,7 +37,6 @@ const swiper = new Swiper('.swiper-1', {
 const teamSwiper = new Swiper('.team-swiper', {
   // Optional parameters
   loop: true,
-  speed: 200,
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
@@ -48,6 +47,7 @@ const teamSwiper = new Swiper('.team-swiper', {
         stretch: 0,
         depth: 400,
         modefier: 2.5, 
+        slideShadows: false,
 
   },
   
