@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DuWalle</title>
+        <link href="../../style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+        <style>
+            body{
+            }
+            .store-header{
+                display:flex;
+                gap: 15px;
+                align-items:center;
+                padding: 0 18px;
+                height:60px;
+                border-bottom: 2px solid #0068d0;
+                box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+                position:fixed;
+                top:0;
+                width:100%;
+                background: #fff;
+            }
+            .store-header .fa-shopping-cart{
+                margin-left:auto;
+                font-size: 20px;
+            }
+            .store-header h4{
+                font-weight: 400;
+                font-size: 22px;
+            }
+            a {
+               color:#000; 
+            }
+            .main{
+                margin-top: 70px;
+            }
+            .notes{
+                margin-top:0px;
+            }
+            .notes a{
+                font-size: 30px;
+                width:40px;
+                height:40px;
+                background:#f2f2f2;
+                display:flex;
+                border-radius: 50%;
+                justify-content:center;
+                align-items:center;
+            }
+            .notes-wrapper{
+                box-shadow: none;
+                flex-wrap:wrap;
+                gap: 0;
+                padding: 4px;
+            }
+            .note{
+                margin: 8px auto;
+            }
+
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="store-header">
+            <a href="../../index.html"><i class="fa fa-arrow-left"></i></a>
+            <h4 class="store-heading">Store</h4>
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+        <div class="main">
+             <div class="notes">
+                <div class="notes-section-heading">
+                    <h4>notes</h4>
+                    <a href="#">></a>
+                </div>
+                <div class="notes-wrapper">
+                    <div class="note">
+                        <img src="../../notes-bg/design-thinking.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">Design Thinking</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="note">
+                        <img src="../../notes-bg/blockchain.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">Introduction to Blockchain</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="note">
+                        <img src="../../notes-bg/brand-management.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">Brand Management</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note">
+                        <img src="../../notes-bg/culture-and-communication.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">culture-and-communication</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+             <div class="notes">
+                <div class="notes-section-heading">
+                    <h4>Statonary</h4>
+                    <a href="#">></a>
+                </div>
+                <div class="notes-wrapper">
+                    <div class="note">
+                        <img src="" alt="">
+                        <div class="content">
+                            <p class="item-name"></p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>000</s></p>
+                                <p class="sale-price">000</p>
+                                <p class="off">00% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="note">
+                        <img src="" alt="">
+                        <div class="content">
+                            <p class="item-name"></p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>000</s></p>
+                                <p class="sale-price">000</p>
+                                <p class="off">00% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="note">
+                        <img src="" alt="">
+                        <div class="content">
+                            <p class="item-name"></p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>000</s></p>
+                                <p class="sale-price">000</p>
+                                <p class="off">00% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+    </body>
+</html>
+

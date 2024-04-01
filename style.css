@@ -127,7 +127,7 @@ header {
     color:#A96564;
 }
 
-.unknown-section{
+.page-sections{
     width: 96%;
     margin:auto;
     display:flex;
@@ -183,6 +183,7 @@ header {
 .notes-section-heading {
     display:flex;
     justify-content:space-between;
+    align-items:center;
     margin: 12px 20px;
 }
 .notes-section-heading h4{
@@ -213,7 +214,8 @@ header {
     border-radius: 6px;
     background:#fff;
     padding: 4px;
-    min-width: 190px;
+    min-width: 175px;
+    max-width: 175px;
     height: 300px;
     padding:8px 0;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
