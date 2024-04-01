@@ -101,30 +101,29 @@ header {
 }
 .hero-section{
     max-width: 1400px;
-    margin-top: 310px;
+    margin-top: 270px;
     display:flex;
     padding: 22px;
+    padding-right:0;
     gap: 22px;
-    align-items:center;
     justify-content:space-between;
-
+    align-items:center;
 }
 .hero-section img{
-    width: 35vw;
-    height:330px;
+    width: 40vw;
+    min-height:330px;
     object-fit: cover;
 }
 
 .hero-section p{
-    font-weight: 400;
-    word-spacing: 4px;
-    font-size: 26px;
-    line-height: 25px;
-    text-transform: uppercase;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-size: 20px;
     text-align:center;
 }
 .hero-section span{
-    color:#A96564;
+    color:#4fb1a1;
+    text-transform:uppercase;
 }
 
 .page-sections{
@@ -366,7 +365,7 @@ header {
     align-items:center;
     gap: 10px;
 }
-.team-profile p{
+.team-profile .team-role{
     color: #5cb85c;
     padding: 4px 6px;
     font-size: 14px;
@@ -379,7 +378,7 @@ header {
     object-fit: cover;
     border-radius: 50%;
 }
-.team-brief{
+.team-brief ,.team-disc{
     font-size: 13px;
     color:#525252;
     font-weight: 400;
@@ -414,9 +413,13 @@ footer {
     display: flex;
     flex-direction:column;
     align-items:center;
-    height:150px;
+    justify-content:space-around;
 }
-
+footer p{
+    font-weight: 500;
+    color:#fff;
+    margin: 25px 0;
+}
 .comment {
     height:80px;
     width: 520px;
@@ -469,12 +472,19 @@ footer {
     display:flex;
     justify-content:center;
     align-items:center;
-    gap: 25px;
+    gap: 20px;
 }
 
 .social i{
-    font-size: 28px;
-    color:#fff;
+    font-size: 22px;
+    width:40px;
+    height:40px;
+    background: rgba(255,255,255,0.8);
+    border-radius:50%;
+    color:#4fb1a1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 @media only screen and (max-width: 1000px) {
     .nav>.fa{
@@ -518,6 +528,9 @@ footer {
         border: 2px solid #4FB1A1;
         padding: 8px 12px;
 
+    }
+    .hero-section{
+        margin-top:240px;
     }
     .hero-section img{
         height: 230px;
