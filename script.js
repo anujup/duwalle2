@@ -37,6 +37,7 @@ const swiper = new Swiper('.swiper-1', {
 const teamSwiper = new Swiper('.team-swiper', {
   // Optional parameters
   loop: true,
+  speed: 100,
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
@@ -45,8 +46,8 @@ const teamSwiper = new Swiper('.team-swiper', {
   coverflowEffect: {
         rotate: 0,
         stretch: 0,
-        depth: 400,
-        modefier: 2.5, 
+        depth: 100,
+        modefier: 2, 
         slideShadows: false,
 
   },
@@ -63,3 +64,35 @@ const teamSwiper = new Swiper('.team-swiper', {
     el: '.swiper-scrollbar',
   },
 });
+
+const reviewSwiper = new Swiper('.review', {
+  // Optional parameters
+  loop: true,
+  speed: 100,
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  
+  coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modefier: 2, 
+        slideShadows: false,
+
+  },
+  
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
