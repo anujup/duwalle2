@@ -41,26 +41,32 @@
             .main{
                 margin-top: 70px;
             }
-            .notes{
+            .items{
                 margin-top:0px;
             }
-            .notes a{
+            .items-section-heading >i{
                 font-size: 30px;
                 width:40px;
                 height:40px;
                 background:#f2f2f2;
+                color:#0068d0;
                 display:flex;
                 border-radius: 50%;
                 justify-content:center;
                 align-items:center;
             }
-            .notes-wrapper{
+            .items-wrapper{
                 box-shadow: none;
                 flex-wrap:wrap;
+                overflow: hidden;
+                height: 326px;
                 gap: 0;
                 padding: 4px;
             }
-            .note{
+            .height-full{
+                height:auto;
+            }
+            .item{
                 margin: 8px auto;
             }
 
@@ -75,13 +81,13 @@
             <i class="fa fa-shopping-cart"></i>
         </div>
         <div class="main">
-             <div class="notes">
-                <div class="notes-section-heading">
+             <div class="items">
+                <div class="items-section-heading">
                     <h4>notes</h4>
-                    <a href="#">></a>
+                    <i class="fa fa-caret-down notes"></i>
                 </div>
-                <div class="notes-wrapper">
-                    <div class="note">
+                <div class="items-wrapper notes-wrapper">
+                    <div class="item">
                         <img src="../../notes-bg/design-thinking.jpg" alt="">
                         <div class="content">
                             <p class="item-name">Design Thinking</p>
@@ -100,7 +106,7 @@
 
                         </div>
                     </div>
-                    <div class="note">
+                    <div class="item">
                         <img src="../../notes-bg/blockchain.jpg" alt="">
                         <div class="content">
                             <p class="item-name">Introduction to Blockchain</p>
@@ -119,7 +125,7 @@
 
                         </div>
                     </div>
-                    <div class="note">
+                    <div class="item">
                         <img src="../../notes-bg/brand-management.jpg" alt="">
                         <div class="content">
                             <p class="item-name">Brand Management</p>
@@ -137,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="note">
+                    <div class="item">
                         <img src="../../notes-bg/culture-and-communication.jpg" alt="">
                         <div class="content">
                             <p class="item-name">culture-and-communication</p>
@@ -159,13 +165,13 @@
             </div>
            
         </div>
-             <div class="notes">
-                <div class="notes-section-heading">
+             <div class="items">
+                <div class="items-section-heading">
                     <h4>Statonary</h4>
-                    <a href="#">></a>
+                    <i class="fa fa-caret-down statonary"></i>
                 </div>
-                <div class="notes-wrapper">
-                    <div class="note">
+                <div class="items-wrapper statonary-wrapper">
+                    <div class="item">
                         <img src="" alt="">
                         <div class="content">
                             <p class="item-name"></p>
@@ -184,7 +190,7 @@
 
                         </div>
                     </div>
-                    <div class="note">
+                    <div class="item">
                         <img src="" alt="">
                         <div class="content">
                             <p class="item-name"></p>
@@ -203,7 +209,7 @@
 
                         </div>
                     </div>
-                    <div class="note">
+                    <div class="item">
                         <img src="" alt="">
                         <div class="content">
                             <p class="item-name"></p>
@@ -227,6 +233,7 @@
             </div>
 
 
+    <script src = "../../script.js"> </script>
     </body>
 </html>
 

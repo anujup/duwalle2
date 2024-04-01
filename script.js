@@ -1,3 +1,23 @@
+var dropdown = document.getElementsByClassName("fa-caret-down")
+for (let index = 0; index < dropdown.length; index++) {
+    let toggle = false
+    dropdown[index].addEventListener("click", function(dets){
+        let selectedWrapper = "."+dets.target.classList[2] + "-wrapper"
+        let storeElement = document.querySelector(selectedWrapper)
+        if (!toggle) {
+            dets.target.className = dets.target.className.replace("fa-caret-down" , "fa-caret-up")
+            storeElement.style.height = "auto"
+            toggle = true
+        }else{
+            dets.target.className = dets.target.className.replace("fa-caret-up" , "fa-caret-down")
+            storeElement.style.height = "326px"
+            toggle = false
+        }
+            
+    })
+    
+}
+
 var menuToggle = document.querySelector('.fa-bars')
 var navlinks  = document.querySelector('.links')
 var showing = false
@@ -96,3 +116,5 @@ const reviewSwiper = new Swiper('.review', {
   },
 });
 
+
+// ------------------------------------Shop-------------------------------------------------
