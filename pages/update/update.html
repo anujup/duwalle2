@@ -14,6 +14,7 @@
         <style>
             .update-header{
                 display:flex;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
                 width:100%;
                 position:fixed;
                 top:0;
@@ -23,7 +24,7 @@
                 height: 60px;
                 padding: 12px;
                 background:#fff;
-                border-bottom: 2px solid rgb(92,180,92);
+                border-bottom: 2px solid #0068d0;
             }
             .update-header a {
                 color:#000;
@@ -32,56 +33,59 @@
                 font-weight: 400;
             }
             .update-wrapper{
-                margin-top: 60px;
-                padding: 24px 28px;
+                position:relative;
+                z-index: -1;
+                top: 0;
+                width:100vw;
+                padding: 80px 0;
                 display:flex;
                 flex-direction:column;
                 align-items:center;
-            }
-            ol{
-                list-style-position: inside;
-                display:flex;
-                flex-direction:column;
                 justify-content:center;
-                align-items:center;
                 gap: 28px;
             }
-            li {
+            
+            .update-item {
                 font-size: 15px;
+                box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
                 width:95vw;
-                border:2px solid rgba(92,180,92, .3);
                 border-radius: 10px;
                 padding-right:0;
                 display:flex;
+                align-items:center;
                 justify-content:space-between;
+                height:50px;
+                background: rgba(0,104,208,.1);
             }
 
-            li a{
-                text-decoration:none;
-                color:#000;
+            .update-item i{
+                width: 50px;
+                height: 50px;
                 display:flex;
-                padding: 0 10px;
-                text-wrap:nowrap;
-                font-size: 14px;
+                font-size: 25px;
+                border-radius: 10px;
                 justify-content:center;
                 align-items:center;
-                border-radius: 10px;
-                background: rgba(92,180,92,0.1);
-                color: rgb(92,180,92);
+                color:#0068d0;
+                background: rgba(0,104,208,.8);
+                color:#fff;
+                border-radius: 0px 10px 10px 0px;
                 
             }
-            li p{
-                margin:10px 6px;
+            .update-content{
+                margin:0px 12px;
                 text-wrap:nowrap;
-                overflow:hidden;
+                overflow: auto;
             }
             .index{
-                border-right: 2px solid rgba(92,180,92,.3);
-                background: rgba(92,180,92,0.1);
+                font-size: 16px;
+                background: rgba(0,104,208,.1);
+                color:#0068d0;
                 margin:0;
                 padding: 12px;
                 justify-content:center;
                 align-items:center;
+                border-radius: 10px 0px 0px 10px;
             }
         </style>
 
@@ -93,18 +97,69 @@
                 <h4>Notifications and Updates</h4>
             </div>
             <div class="update-wrapper">
-                <ol>
-                    <li><p class= "index">1.</p><p>Examination form Notification</p> <a class="view" href="#">View More</a></li>
-                    <li><p class= "index">2.</p><p>Examination form Notification</p> <a class="view" href="#">View More</a></li>
-                    <li><p class= "index">3.</p><p>Examination form Notification</p> <a class="view" href="#">View More</a></li>
-                    <li><p class= "index">4.</p><p>Examination form Notification</p> <a class="view" href="#">View More</a></li>
-                    <li><p class= "index">5.</p><p>Examination form Notification</p> <a class="view" href="#">View More</a></li>
-                    <li><p class= "index">6.</p><p>Examination form Notification</p> <a class="view" href="#">View More</a></li>
-                </ol>
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class = "update-item">
+                    <p class= "index">1.</p>
+                    <p class = "update-content">Examination form Notification</p>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
 
             </div>
         </div>
-
         <script src="../../script.js"></script>
+
     </body>
 </html>

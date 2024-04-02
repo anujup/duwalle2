@@ -11,11 +11,193 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+        <style>
+            .event-header{
+                display:flex;
+                width:100%;
+                position:fixed;
+                top:0;
+                gap: 22px;
+                align-items:center;
+                font-size: 17px;
+                height: 60px;
+                padding: 12px;
+                background:#fff;
+                border-bottom: 2px solid #0068d0;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            } 
+            a{
+                color:#000;
+            }
+            .event-header h4{
+                font-weight: 400;
+            }
+
+            .event-wrapper {
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                gap: 28px;
+                padding: 70px 0;
+            }
+            .event-item{
+                width: 94vw;
+                display:flex;
+                align-items:center;
+                border-radius: 8px;
+                gap: 25px;
+                padding: 12px 10px;
+                border: 2px solid #e2e2e2;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+                flex: 1;
+            }
+            .event-item img{
+                height: 95px;
+                width: 95px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            .event-content{
+                display:flex;
+                flex-direction:column;
+                justify-content:space-around;
+            }
+            .event-discription {
+                color:#626262;
+                font-family:"Sofia Sans Extra Condensed", sans-serif; 
+                font-weight: 500;
+                font-size: 13px;
+                width:100%;
+                margin: 6px 0 10px 0;
+            }
+            .event-name{
+                text-transform:uppercase;
+                font-size: 18px;
+                letter-spacing: .8px;
+                color:#0068d0;
+                font-weight: 600;
+            }
+            .event-name span{
+                font-size: 24px;
+                font-weight:500;
+            }
+            .event-content button{
+                width:110px;
+                font-size: 13px;
+                font-weight: 500;
+                border-radius: 16px;
+                padding: 7px 0;
+                transition:all .2s;
+                color:#fff;
+                background:#0068d0;
+                border: 2px solid #0068d0;
+            }
+            .event-content button:hover{
+                border: 2px solid #0068d0;
+                color:#0068d0;
+                background:#fff;
+
+            }
+        </style>
     </head>
     <body>
         <div class="event-header">
             <a href="../../index.html"><i class="fa fa-arrow-left"></i></a>
             <h4>Events and Competetion</h4>
         </div>
+        <div class="event-wrapper">
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <img src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?w=360&t=st=1712043094~exp=1712043694~hmac=0228806a83b740aa164023721abfefdb89c077cf0d4396b25a4e8e59bf3c67a9" alt="">
+                <div class="event-content">
+                    <h2 class="event-name"><span>t</span>ech<span>s</span>pire</h2>
+                    <p class="event-discription">TechSpire is a superhero case study competition organised by Macstak, Tech Society of Maharaja Agrasen College, University of Delhi</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+
+
+        </div>
+            
     </body>
 </html>
