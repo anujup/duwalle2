@@ -140,6 +140,12 @@ header {
     width: 170px;
     height:110px;
     border-radius: 8px;
+    transition:all .2s;
+}
+.box:hover{
+    width: 174px;
+    height: 114px;
+    box-shadow: 0px 12px 20px rgba(0,0,0,0.2);
 }
 .box h3{
     text-align:center;
@@ -221,6 +227,10 @@ header {
     height: 300px;
     padding:8px 0;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+.item:hover{
+    height: 310px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
 }
 .item img{
     height: 70%;
